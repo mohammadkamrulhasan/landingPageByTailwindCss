@@ -26,9 +26,9 @@ const Header = ({...otherProps}) => {
                 md:static md:w-auto  md:flex
             `}>
                 <ul className="md:flex-row md:flex ">
-                    <li className="list-none md:mr-5"> <link rel="stylesheet" className="flex w-full text-base uppercase hover:text-red-600 cursor-pointer pt-2.5 px-2.5" href="/Page" /> Page</li>
-                    <li className="list-none md:mr-5"> <link rel="stylesheet" className="flex w-full text-base uppercase hover:text-red-600 cursor-pointer pt-2.5 px-2.5" href="/page" /> Page</li>
-                    <li className="list-none md:mr-5"> <link rel="stylesheet" className="flex w-full text-base uppercase hover:text-red-600 cursor-pointer pt-2.5 px-2.5" href="/page" /> Page</li>
+                    <li className="list-none md:mr-5"> <link to="/Home" className="flex w-full text-base uppercase hover:text-red-600 cursor-pointer pt-2.5 px-2.5" href="" /> Home</li>
+                    <li className="list-none md:mr-5"> <link to="/Gallery" className="flex w-full text-base uppercase hover:text-red-600 cursor-pointer pt-2.5 px-2.5" href="" /> Gallery</li>
+                    <li className="list-none md:mr-5"> <link to="/AboutUs" className="flex w-full text-base uppercase hover:text-red-600 cursor-pointer pt-2.5 px-2.5" href="" /> About Us</li>
                 </ul>
             </nav>
         </div>
