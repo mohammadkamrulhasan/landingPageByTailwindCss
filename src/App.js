@@ -21,13 +21,13 @@ function App() {
            <LandingPage heading="Tailwind CSS">
            <HomePage></HomePage>
            </LandingPage>  
-           <Route path="/about">
+           <Route path="/Home">
             
           </Route>
-          <Route path="/about">
+          <Route path="/Gallery">
            
           </Route>
-          <Route path="/about">
+          <Route path="/aboutUs">
            
           </Route>        
          
